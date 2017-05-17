@@ -1,0 +1,14 @@
+|FA
+An => T3.IN0
+An => T1.IN1
+An => X1.IN0
+Bn => T3.IN1
+Bn => T2.IN1
+Bn => X1.IN1
+Cin => Sum~0.IN0
+Cin => T2.IN0
+Cin => T1.IN0
+Sum <= Sum~0.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout~1.DB_MAX_OUTPUT_PORT_TYPE
+
+
